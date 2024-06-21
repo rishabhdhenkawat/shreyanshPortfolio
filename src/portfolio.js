@@ -125,13 +125,13 @@ const educationInfo = {
     {
       schoolName: "Indian Institute of Technology Kanpur",
       logo: "https://alpha.indicwiki.in/images/a/ae/1024px-IIT_Kanpur_Logo.svg.png",
-      subHeader: "Bachelor of Technology in Materials Science and Engineering",
+      subHeader: "Bachelor of Technology",
       duration: "July 2019 - June 2023",
-      desc: "Graduated with a focus on MSE, with a CPI of 7.2.",
+      desc: "Graduated with a focus on Computer Science(CSE), Material Science(MSE) & Humanities.",
       descBullets: [
         "Winner of the Hackathon at NIT Hamirpur, 2022",
         "Solved 500+ problems on platforms like InterviewBit, LeetCode, and GeeksForGeeks",
-        "Secured AIR 4996 in JEE, 2019, among 1.2 million aspirants across India"
+        "Graduated with a strong academic record, leveraging research experience to further my engineering knowledge."
       ]
     }
   ]
@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Data Analyst",
       company: "Oculosense",
-      companylogo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Foculosense-private-limited&psig=AOvVaw3XMJjdJeeC8Q8wroeLDL8i&ust=1718377519336000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPDchKft2IYDFQAAAAAdAAAAABAE", // Use the web link for the logo
+      companylogo: require("./assets/images/facebookLogo.png"),
       date: "August 2023 – Present",
       desc: "Developed and deployed machine learning models, enhanced visual recognition systems, and optimized backend infrastructure.",
       descBullets: [
@@ -179,8 +179,8 @@ const workExperiences = {
     },
     {
       role: "Backend Development Intern",
-      company: "UnOrg Vendor Solutions Online",
-      companylogo: "https://play.google.com/store/apps/datasafety?id=com.unorguserapp.unorg", // Use the web link for the logo
+      company: "UnOrg Vendor Solutions",
+      companylogo: require("./assets/images/facebookLogo.png"),
       date: "May 2022 – July 2022",
       desc: "Implemented a voice search feature, processed voice data, and optimized backend system performance.",
       descBullets: [
