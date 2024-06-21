@@ -353,8 +353,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  resumeLink: require("./assets/resume_.pdf"),
-  // Please Provide with Your Podcast embeded Link
+  // Please Provide with Your Resume
   display: true // Set false to hide this section, defaults to true
 };
 
