@@ -23,7 +23,7 @@ const greeting = {
   username: "Shrayansh Jakar",
   title: "Hi all, I'm Shrayansh",
   subTitle: emoji(
-    "Proven track record in backend optimization, API development, and enhancing user experience. Passionate about leveraging technology to solve real-world problems and improve user satisfaction.🚀 "
+    "Proven track record in backend optimization, API development, and enhancing user experience 🚀. Passionate about leveraging technology to solve real-world problems 🌍 and improve user satisfaction 😊."
   ),
   resumeLink: require("./assets/resume_.pdf"),
   displayGreeting: true // Set false to hide this section, defaults to true
