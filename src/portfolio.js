@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Proven track record in backend optimization, API development, and enhancing user experience. Passionate about leveraging technology to solve real-world problems and improve user satisfaction.🚀 "
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1LKLb6-pHdHt2rcaf0tzZax7KgB2JJEV8/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: require("./assets/resume_.pdf"),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -167,7 +166,7 @@ const workExperiences = {
     {
       role: "Data Analyst",
       company: "Oculosense",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/oculosense.jpg"),
       date: "August 2023 – Present",
       desc: "Developed and deployed machine learning models, enhanced visual recognition systems, and optimized backend infrastructure.",
       descBullets: [
@@ -180,7 +179,7 @@ const workExperiences = {
     {
       role: "Backend Development Intern",
       company: "UnOrg Vendor Solutions",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/unorg.png"),
       date: "May 2022 – July 2022",
       desc: "Implemented a voice search feature, processed voice data, and optimized backend system performance.",
       descBullets: [
@@ -374,7 +373,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
