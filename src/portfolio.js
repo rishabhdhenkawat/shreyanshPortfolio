@@ -354,6 +354,7 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
   // Please Provide with Your Resume
+  resumeLink: require("./assets/resume_.pdf"),
   display: true // Set false to hide this section, defaults to true
 };
 
