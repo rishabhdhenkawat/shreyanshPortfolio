@@ -10,15 +10,19 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by DeveloperFolio Team")}
+          {emoji("Thank you for visiting! 🌟")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
-          <a href="https://github.com/saadpasta/developerFolio">
-            developerFolio
-          </a>
+          {emoji("Feel free to connect with me on ")}
+          <a href="https://www.linkedin.com/in/shrayansh1/" target="_blank" rel="noopener noreferrer">LinkedIn 🔗</a>{" | "}
+          <a href="https://github.com/Shrayansh19" target="_blank" rel="noopener noreferrer">GitHub 🐙</a>{" | "}
+          <a href="mailto:your.email@gmail.com" target="_blank" rel="noopener noreferrer">GMail ✉️</a>
+        </p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          {emoji("© 2024 Shrayansh Jakar | Made with ❤️")}
         </p>
       </div>
     </Fade>
   );
 }
+
