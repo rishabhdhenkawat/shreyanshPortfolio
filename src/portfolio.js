@@ -164,7 +164,7 @@ const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Data Analyst",
+      role: "Founding Member",
       company: "Oculosense",
       companylogo: require("./assets/images/oculosense.jpg"),
       date: "August 2023 – Present",
